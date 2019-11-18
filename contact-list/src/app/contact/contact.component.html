@@ -1,0 +1,13 @@
+
+<div class="block"> 
+    <input class="form-control "type="text" placeholder="First name" [(ngModel)]="firstName"/>
+    <input class="form-control " type="text" placeholder="Last name" [(ngModel)]="lastName" />
+    <input class="form-control " type="number" placeholder="Phone number" [(ngModel)]="phoneNumber"/>
+    <button class="btn btn-primary"(click)="onSaveClicked()">Save</button>
+  </div>
+
+  <!-- <div *ngFor="let contact of contacts">
+
+    <h3>{{contact.name}} {{contact.surname}}</h3>
+    <span>{{contact.number}}</span>
+  </div> -->
